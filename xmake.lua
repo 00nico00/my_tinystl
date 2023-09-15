@@ -6,7 +6,7 @@ set_languages("c99", "c++20")
 target("my_tinystl")
     set_kind("binary")
     add_files("src/*.cpp")
-    add_includedirs("include")
+    add_includedirs("include", "test")
     set_toolchains("gcc")
 
 --

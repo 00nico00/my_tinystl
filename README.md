@@ -4,7 +4,7 @@ learn from https://github.com/Alinshans/MyTinySTL
 ```
 ubuntu 22.04
 
-gcc13 + xmake
+gcc13 + xmake + c++20
 ```
 
 # Getting started
