@@ -1,9 +1,10 @@
 #include <iostream>
 
-int main(int argc, char** argv) {
-    std::string str_test = "test";
+#include "pair_test.hpp"
 
-    std::cout << str_test << '\n';
+int main(int argc, char** argv) {
+
+    mystl::test_pair();
 
     return 0;
 }
