@@ -6,8 +6,15 @@ set_languages("c99", "c++20")
 target("my_tinystl")
     set_kind("binary")
     add_files("src/*.cpp")
-    add_includedirs("include", "test")
+    add_includedirs("include")
     set_toolchains("gcc")
+
+target("gtest")
+    set_kind("binary")
+    add_files("test/*.cpp")
+    add_includedirs("include")
+    set_toolchains("gcc")
+    add_ldflags("-lgtest")
 
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
